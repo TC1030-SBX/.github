@@ -20,7 +20,7 @@ Existen dos casos de uso que suelen presentarse en los cursos: **(1) Explicar ej
 
 ## (1) Explicar ejemplos o realizar ejercicios sin Autograding:
 
-`TMP-XXX->C-SIN-TC1030-XX`
+`TMP-XXX->C-SIN-TC1030-XXX`
 
 ## (2) Realizar ejercicios y tareas con Autograding:
 
