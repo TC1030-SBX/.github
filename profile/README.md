@@ -8,11 +8,11 @@ Para el uso de GitHub con esta UF se presentan a continuación los elementos a c
 
 Se recomienda que la UF cuente con las siguientes **Organizaciones**:
 
-* **`TMP-XXX`** : (*Organizaciónn personal - gratuita*). En esta organización el profesor crea los diversos repositorios que utilizará para su clase (plantillas, ejemplos, ejercicios o tareas). Es una organización con repositorios privados y plantilla. Es una organización de *backstage*.
+* **`TMP-XXX`** : (*Organizaciónn personal - gratuita*). En esta organización el profesor crea los diversos repositorios que utilizará para su clase (plantillas, ejemplos, ejercicios o tareas). Es una organización con repositorios privados y plantilla. Es una organización de *backstage*. **Escalamiento**: se puede definir sólo una organización de este tipo en la cual todos los profesores del campus pueden crear ejercicios para todos los grupos.
 
-* **`CLA-XXX`** : (*Organización personal - gratutita*). En esta organizaciónn el profesor colocará las versiones de repositorios públicos - plantilla que serán la base para cada una de las tareas con Autograding de la organización. Estos repositorios se generaron a partir de los respositorios privados - plantilla que trabajó y generó el profesor en la organización TMP-XXX.
+* **`CLA-XXX`** : (*Organización personal - gratutita*). En esta organizaciónn el profesor colocará las versiones de repositorios públicos - plantilla que serán la base para cada una de las tareas con Autograding de la organización. Estos repositorios se generaron a partir de los respositorios privados - plantilla que trabajó y generó el profesor en la organización TMP-XXX. **Escalamiento:** se puede definir sólo una organización de este tipo que puede ser compartida para la generación de todos los ejercicios de Autograding de todos los grupos del campus.
 
-* **`C-SIN-TC1030-XXX`**: (*Organización Tec*). Es la organización que el Tec crea para cada profesor en cada semestre. Ahí el profesor puede colocar ejemplos de programación para su clase (repositorios públicos - no plantilla) así como repositorios para que el alumno practique programación (repositorios públicos-plantilla). Es aquí donde deberían generarse los repositorios privados de los alumnos cuando aceptan sus tareas de Autograding.
+* **`C-SIN-TC1030-XXX`**: (*Organización Tec*). Es la organización que el Tec crea para cada profesor en cada semestre. Ahí el profesor puede colocar ejemplos de programación para su clase (repositorios públicos - no plantilla) así como repositorios para que el alumno practique programación (repositorios públicos-plantilla). Es aquí donde deberían generarse los repositorios privados de los alumnos cuando aceptan sus tareas de Autograding. **Escalamiento:** a nivel nacional el responsable  genera 1 organización para cada grupo en cada campus en cada semestre.
 
 # WORKFLOW
 
@@ -25,6 +25,10 @@ Existen dos casos de uso que suelen presentarse en los cursos: **(1) Explicar ej
 ## (2) Realizar ejercicios y tareas con Autograding:
 
 `TMP-XXX->CLA-XXX->C-SIN-TC1030-XXX`
+
+** **Nota**: en caso de existir un laboratorio previo de ejercicios (por ejemplo NAL) el workflow se puede ampliar:
+
+`LAB-NAL-XXX->TMP-XXX->CLA-XXX->C-SIN-TC1030-XXX`
 
 * La razón por la cual existe el paso a la organización intermedia CLA-XXX tiene que ver con eliminar la posibilidad de que el alumno pueda encontrar la solución a través de la consulta del histórico de cambios de GitHub. Al pasara de TMP-XXX a CLA-XXX se pierde esta historia y se evita que el estudiante conozca la solución original que el profesor diseñó en la organización TMP-XXX.
 
