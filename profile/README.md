@@ -48,6 +48,7 @@ El profesor puede crear este tipo de repositorios para compartir ejemplos de pro
 El profesor puede poner a disposición de los alumnos este tipo de repositorio para que practiquen los diversos temas de programación. Se sugieren público y plantilla y que cada alumno genere el propio usando su matrícula para distinguirlos entre sí. Cada alumno se sugiere genera su propio repositorio privado y no plantilla. Usarían `Codespaces` para practicar.
 
 * [Plantilla-Repositorio para Ejercicios - sin Autograding](https://github.com/TC1030-SBX/ej-base-proyectos)
+* [Ejemplo-Repositorio de Solución de Ejercicios opcionales](https://github.com/TC1030-SBX/TC1030.cpp.proy.opt.sol)
 
 ## AUTOGRADING
 
@@ -85,11 +86,12 @@ El Workflow sugerido para implementarlo es el siguiente:
 * [Plantilla-Repositorio de Ejercicios con Autograding](https://github.com/TC1030-SBX/ej-base-autograding)
 * [Archivo makefile - para Repositorio de Ejercicios y Ejemplos sin Autograding](https://gist.github.com/rquinteroTecSin/5c0ff34587cb4238c26ae2d1c6ceeb00)
 * [Archivo makefile - para Repositorio de Ejercicios con Autograding](https://gist.github.com/rquinteroTecSin/ac02e1499cd32bfcfc047d95229b6f39)
-* [Archivo de configuración para habilitar debug en VSCode](https://gist.github.com/rquinteroTecSin/fb7005646bfb72ca174043ee904c0888)
+* [Archivo de configuración launch.json para habilitar debug en VSCode](https://gist.github.com/rquinteroTecSin/fb7005646bfb72ca174043ee904c0888)
+* [Archivo de configuración devcontainer.json para inicializar contenedor C++](https://gist.github.com/rquinteroTecSin/4be2fab34cf176b5e2b48c6e65c2921d)
 * [Repositorio - Ejemplo Repositorio Autograding completo](https://github.com/TC1030-SBX/TC1030.cpp.ag.calculadora)
 * [Repositorio - Ejemplo Repositorio Autograding incompleto -para que el alumno lo resuelva en una tarea](https://github.com/TC1030-SBX/TC1030.cpp.ag.calculadora.tmp)
-* [Repositorio - Evaluación Diagnóstico sugerido en la UF](https://github.com/TC1030-SBX/TC1030.cpp.ag.evdg)
-* [Repositorio - Examen Práctico usando Autograding](https://github.com/TC1030-SBX/TC1030-SBX-TC1030.cpp.ag.evdg)
+* [Repositorio - Evaluación Diagnóstica sugerida en la UF](https://github.com/TC1030-SBX/TC1030.cpp.ag.evdg)
+* [Repositorio - Examen Práctico usando Autograding](https://github.com/TC1030-SBX/TC1030.cpp.ag.evp)
 
 ## VIDEOS DE APOYO
 
