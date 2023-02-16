@@ -1,4 +1,4 @@
-## TC1030 - Programación Orientada a Objetos (Tips para su implementación en GitHub)
+# TC1030 - Programación Orientada a Objetos (Tips para su implementación en GitHub)
 
 ![174454995-6ebce5d6-e6cd-40ee-8391-105d5f0df777](https://user-images.githubusercontent.com/55771796/183143437-0019fae2-2de8-4560-869a-56c7ded95f51.png)
 
@@ -10,7 +10,7 @@ Se recomienda que la UF cuente con las siguientes **Organizaciones**:
 
 * **`TMP-XXX`** : (*Organizaciónn personal - gratuita*). En esta organización el profesor crea los diversos repositorios que utilizará para su clase (plantillas, ejemplos, ejercicios o tareas). Es una organización con repositorios privados y plantilla. Es una organización de *backstage*. **Escalamiento**: se puede definir sólo una organización de este tipo en la cual todos los profesores del campus pueden crear ejercicios para todos los grupos.
 
-* **`CLA-XXX`** : (*Organización personal - gratutita*). En esta organización el profesor colocará las versiones de repositorios públicos - plantilla que serán la base para cada una de las tareas con Autograding de la organización. Estos repositorios se generaron a partir de los respositorios privados - plantilla que trabajó y generó el profesor en la organización TMP-XXX. **Escalamiento:** se puede definir sólo una organización de este tipo que puede ser compartida para la generación de todos los ejercicios de Autograding de todos los grupos del campus.
+* **`CLA-XXX`** : (*Organización personal - gratutita*). En esta organización el profesor colocará las versiones de repositorios públicos - plantilla que serán la base para cada una de las tareas con Autograding de la organización. Estos repositorios se generaron a partir de los respositorios privados - plantilla que trabajó y generó el profesor en la organización `TMP-XXX`. **Escalamiento:** se puede definir sólo una organización de este tipo que puede ser compartida para la generación de todos los ejercicios de Autograding de todos los grupos del campus.
 
 * **`C-SIN-TC1030-XXX`**: (*Organización Tec*). Es la organización que el Tec crea para cada profesor en cada semestre. Ahí el profesor puede colocar ejemplos de programación para su clase (repositorios públicos - no plantilla) así como repositorios para que el alumno practique programación (repositorios públicos-plantilla). Es aquí donde deberían generarse los repositorios privados de los alumnos cuando aceptan sus tareas de Autograding. **Escalamiento:** a nivel nacional el responsable  genera 1 organización para cada grupo en cada campus en cada semestre.
 
@@ -30,7 +30,7 @@ Existen dos casos de uso que suelen presentarse en los cursos: **(1) Explicar ej
 
 `LAB-NAL-XXX->TMP-XXX->CLA-XXX->C-SIN-TC1030-XXX`
 
-* La razón por la cual existe el paso a la organización intermedia CLA-XXX tiene que ver con eliminar la posibilidad de que el alumno pueda encontrar la solución a través de la consulta del histórico de cambios de GitHub. Al pasara de TMP-XXX a CLA-XXX se pierde esta historia y se evita que el estudiante conozca la solución original que el profesor diseñó en la organización TMP-XXX.
+* La razón por la cual existe el paso a la organización intermedia `CLA-XXX` tiene que ver con eliminar la posibilidad de que el alumno pueda encontrar la solución a través de la consulta del histórico de cambios de GitHub. Al pasara de `TMP-XXX` a `CLA-XXX` se pierde esta historia y se evita que el estudiante conozca la solución original que el profesor diseñó en la organización `TMP-XXX`.
 
 # REPOSITORIOS EJEMPLOS Y EJERCICIOS
 Estos repositorios se pueden crear para que el profesor apoye la explicación de los temas y permitir al alumno que los revise y ejercite usando `Codespaces`. Se sugieren públicos-plantilla/no plantilla.
@@ -50,9 +50,9 @@ El profesor puede poner a disposición de los alumnos este tipo de repositorio p
 * [Plantilla-Repositorio para Ejercicios - sin Autograding](https://github.com/TC1030-SBX/ej-base-proyectos)
 * [Ejemplo-Repositorio de Solución de Ejercicios opcionales](https://github.com/TC1030-SBX/TC1030.cpp.proy.opt.sol)
 
-## AUTOGRADING
+# AUTOGRADING
 
-La implementación de Autograding para C++ está inspirada en la propuesta del profesor Igor Machado que publica en la su [página de Medium](https://medium.com/swlh/easy-c-autograding-on-github-classroom-with-catch2-106ad1107402). 
+La implementación de Autograding para C++ está inspirada en la propuesta del profesor Igor Machado que publica en su [página de Medium](https://medium.com/swlh/easy-c-autograding-on-github-classroom-with-catch2-106ad1107402). 
 
 El Repositorio base para la construcción de este tipo de ejercicios es el siguiente:
 
@@ -64,7 +64,7 @@ El Workflow sugerido para implementarlo es el siguiente:
 
 2. A partir del repositorio solución creado por el profesor, se obtiene una copia del mismo (se puede agregar el sufijo `.tmp` para diferenciarlo) y haciendo uso de `Codespaces` o el editor simple, el profesor elimina la programación que desea que el alumno haga como solución de la tarea. El grado de dificultad que desea el profesor para el problema puede ser: desde elminar poco código (fácil), hasta eliminar el código completo (difícil). Se sugiere dejar los `.hpp` y que el alumno programe los `.cpp`. Se sugiere, también, agregar el diagrama UML para que el alumno tenga este referente del diseño de la tarea.
 
-3. Una vez listo el repositorio base para la tarea se genera una copia del repositorio privado-plantilla de la organizacón TMP-XXX a la organización CLA-XXX como repositorio público-plantilla. Este será el repositorio que se utilizará para la configuración de la tarea en [GitHub-Classroom](https://classroom.github.com/).
+3. Una vez listo el repositorio base para la tarea se genera una copia del repositorio privado-plantilla de la organizacón `TMP-XXX` a la organización `CLA-XXX` como repositorio público-plantilla. Este será el repositorio que se utilizará para la configuración de la tarea en [GitHub-Classroom](https://classroom.github.com/).
 
 4. En [GitHub-Classroom](https://classroom.github.com/) se crea una asignación nueva para la tarea. Se sugiere ajustar los siguientes parámetros de configuración:
 
@@ -80,7 +80,7 @@ El Workflow sugerido para implementarlo es el siguiente:
 
 6. El profesor comparte la liga de la tarea en Canvas.
 
-## REPOSITORIOS Y ARCHIVOS DE APOYO
+# REPOSITORIOS Y ARCHIVOS DE APOYO
 
 * [Plantilla-Repositorio de Ejercicios sin Autograding](https://github.com/TC1030-SBX/ej-base-proyectos)
 * [Plantilla-Repositorio de Ejercicios con Autograding](https://github.com/TC1030-SBX/ej-base-autograding)
@@ -93,7 +93,7 @@ El Workflow sugerido para implementarlo es el siguiente:
 * [Repositorio - Evaluación Diagnóstica sugerida en la UF](https://github.com/TC1030-SBX/TC1030.cpp.ag.evdg)
 * [Repositorio - Examen Práctico usando Autograding](https://github.com/TC1030-SBX/TC1030.cpp.ag.evp)
 
-## VIDEOS DE APOYO
+# VIDEOS DE APOYO
 
 Los siguientes videos los comparto con mis alumnos para ayudarles a entender los diferentes casos de uso de la propuesta presentada:
 
@@ -104,7 +104,7 @@ Los siguientes videos los comparto con mis alumnos para ayudarles a entender los
 * [Video-Uso y razón de makefile](https://www.loom.com/share/a68377bb88ef4b9f8ed9b3566a5f7276)
 * [Playlist Video-Codespaces (Great!)](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975-)
 
-## HERRAMIENTAS DE APOYO
+# HERRAMIENTAS DE APOYO
 
 Para la creación de **Diagramas UML** dentro del archivo `README.md` de los diferentes repositorios puede usar el lenguaje mermaid, disponible aquí:
 
