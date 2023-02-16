@@ -8,9 +8,9 @@ Para el uso de GitHub con esta UF se presentan a continuación los elementos a c
 
 Se recomienda que la UF cuente con las siguientes **Organizaciones**:
 
-* **`TMP-XXX`** : (*Organizaciónn personal - gratuita*). En esta organización el profesor crea los diversos repositorios que utilizará para su clase (plantillas, ejemplos, ejercicios o tareas). Es una organización con repositorios privados y plantilla. Es una organización de backstage.
+* **`TMP-XXX`** : (*Organizaciónn personal - gratuita*). En esta organización el profesor crea los diversos repositorios que utilizará para su clase (plantillas, ejemplos, ejercicios o tareas). Es una organización con repositorios privados y plantilla. Es una organización de *backstage*.
 
-* **`CLA-XXX`** : (*Organización personal - gratutita*). En esta organizaciónn el profesor colocará las versiones de repositorios públicos - plantilla que serán la base para cada una de las tareas con Autograding de la organización. Estos repositorios se generaron a partir de los respositorios que privados - plantilla que trabajó y generó el profesor en la organización TMP-XXX.
+* **`CLA-XXX`** : (*Organización personal - gratutita*). En esta organizaciónn el profesor colocará las versiones de repositorios públicos - plantilla que serán la base para cada una de las tareas con Autograding de la organización. Estos repositorios se generaron a partir de los respositorios privados - plantilla que trabajó y generó el profesor en la organización TMP-XXX.
 
 * **`C-SIN-TC1030-XXX`**: (*Organización Tec*). Es la organización que el Tec crea para cada profesor en cada semestre. Ahí el profesor puede colocar ejemplos de programación para su clase (repositorios públicos - no plantilla) así como repositorios para que el alumno practique programación (repositorios públicos-plantilla). Es aquí donde deberían generarse los repositorios privados de los alumnos cuando aceptan sus tareas de Autograding.
 
@@ -26,7 +26,7 @@ Existen dos casos de uso que suelen presentarse en los cursos: **(1) Explicar ej
 
 `TMP-XXX->CLA-XXX->C-SIN-TC1030-XXX`
 
-* La razón por la cual existe el paso a la organización intermedia CLA-XXX tiene que ver con eliminar la posibilidad de que el alumno pueda encontrar la solución a través de la consulta del histórico de cambios de GitHub. Al pasara de TMP-XXX a CLA-XXX se pierde esta historia y se evita que el estudiante conozca la solución original que el profesor diseño en la organización TMP-XXX.
+* La razón por la cual existe el paso a la organización intermedia CLA-XXX tiene que ver con eliminar la posibilidad de que el alumno pueda encontrar la solución a través de la consulta del histórico de cambios de GitHub. Al pasara de TMP-XXX a CLA-XXX se pierde esta historia y se evita que el estudiante conozca la solución original que el profesor diseñó en la organización TMP-XXX.
 
 # REPOSITORIOS EJEMPLOS Y EJERCICIOS
 Estos repositorios se pueden crear para que el profesor apoye la explicación de los temas y permitir al alumno que los revise y ejercite usando `Codespaces`. Se sugieren públicos-plantilla/no plantilla.
@@ -57,11 +57,11 @@ El Workflow sugerido para implementarlo es el siguiente:
 
 1. El profesor selecciona y resuelve el ejercicio completamente. Incluye dentro del mismo la(s) prueba(s) para realizar el Autograding. Todo lo realiza dentro de la organización `TMP-XXX` en un repositorio privado y plantilla. Parte de la base que le ofrece el [repositorio plantilla para Autograding](https://github.com/TC1030-SBX/ej-base-autograding). Las Herramientas que se sugieren para que el profesor construya este repositorio son `Codespaces` (si desea tener acceso a todas las herrramientas de programación - editor+compilador+depurador); y puede usar el `.` directamente en GitHub para tener acceso a un editor simple (sin acceso a la máquina virtual Linux), útil para ediciones rápidas.
 
-2. A partir del repositorio solución creado por el profesor, se obtiene una copia del mismo (se puede agregar el sufijo `.tmp` para diferenciarlo) y haciendo uso de `Codespaces` o el editor simple, el profesor elimina la programación que desea que el alumno haga como solución de la tarea. El grado de dificultad que desea el profesor para el problema puede ser: desde elminar poco código hasta eliminar todo el código completo. Se sugiere dejar los `.hpp` y que el alumno programe los `.cpp`. Se sugiere también agregar el diagrama UML para que el alumno tenga este referente del diseño subyacente de la tarea.
+2. A partir del repositorio solución creado por el profesor, se obtiene una copia del mismo (se puede agregar el sufijo `.tmp` para diferenciarlo) y haciendo uso de `Codespaces` o el editor simple, el profesor elimina la programación que desea que el alumno haga como solución de la tarea. El grado de dificultad que desea el profesor para el problema puede ser: desde elminar poco código (fácil), hasta eliminar el código completo (difícil). Se sugiere dejar los `.hpp` y que el alumno programe los `.cpp`. Se sugiere, también, agregar el diagrama UML para que el alumno tenga este referente del diseño de la tarea.
 
 3. Una vez listo el repositorio base para la tarea se genera una copia del repositorio privado-plantilla de la organizacón TMP-XXX a la organización CLA-XXX como repositorio público-plantilla. Este será el repositorio que se utilizará para la configuración de la tarea en [GitHub-Classroom](https://classroom.github.com/).
 
-4. En [GitHub-Classroom](https://classroom.github.com/) se crea una asignación nueva para la tarea. Se sugieren los siguientes ajustar los siguientes parámetros de configuración:
+4. En [GitHub-Classroom](https://classroom.github.com/) se crea una asignación nueva para la tarea. Se sugiere ajustar los siguientes parámetros de configuración:
 
 * `Assignment title:` título descriptivo de la tarea. Se sugiere definir un estándar para su rápida identificación.
 * `Deadline:` fecha límite de entrega que coincida con la que se ha establecido en Canvas.
