@@ -102,6 +102,7 @@ Los siguientes videos los comparto con mis alumnos para ayudarles a entender los
 * [Video-Depuración de Proyecto con Autograding](https://www.loom.com/share/f18aa144e3564bf8a7e9eeb7ba6273bc)
 * [Video-Depuración de Proyecto sin Autograding](https://www.loom.com/share/2e24fdc494114c7a9b07ad3b56942fe9)
 * [Video-Uso y razón de makefile](https://www.loom.com/share/a68377bb88ef4b9f8ed9b3566a5f7276)
+* [Playlist Video-Codespaces (Great!)](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975-)
 
 ## HERRAMIENTAS DE APOYO
 
