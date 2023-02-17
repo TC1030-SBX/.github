@@ -1,5 +1,7 @@
 # TC1030 - Programación Orientada a Objetos (Tips para su implementación en GitHub)
 
+*Esta es la vista pública de la organización, que es parcial. Si desea la vista completa solicite a `ricardo.quintero@tec.mx` el ingreso completo a la misma enviándole por correo su petición incluyendo su cuenta Tec.*
+
 ![174454995-6ebce5d6-e6cd-40ee-8391-105d5f0df777](https://user-images.githubusercontent.com/55771796/183143437-0019fae2-2de8-4560-869a-56c7ded95f51.png)
 
 Para el uso de GitHub con esta UF se presentan a continuación los elementos a considerar, así como la forma en la que se pueden utilizar:
@@ -30,7 +32,7 @@ Existen dos casos de uso que suelen presentarse en los cursos: **(1) Explicar ej
 
 `LAB-NAL-XXX->TMP-XXX->CLA-XXX->C-SIN-TC1030-XXX`
 
-* La razón por la cual existe el paso a la organización intermedia `CLA-XXX` tiene que ver con eliminar la posibilidad de que el alumno pueda encontrar la solución a través de la consulta del histórico de cambios de GitHub. Al pasara de `TMP-XXX` a `CLA-XXX` se pierde esta historia y se evita que el estudiante conozca la solución original que el profesor diseñó en la organización `TMP-XXX`.
+* La razón por la cual existe el paso a la organización intermedia `CLA-XXX` tiene que ver con eliminar la posibilidad de que el alumno pueda encontrar la solución a través de la consulta del histórico de cambios de GitHub. Al pasar de `TMP-XXX` a `CLA-XXX` se pierde esta historia y se evita que el estudiante conozca la solución original que el profesor diseñó en la organización `TMP-XXX`.
 
 # REPOSITORIOS EJEMPLOS Y EJERCICIOS
 Estos repositorios se pueden crear para que el profesor apoye la explicación de los temas y permitir al alumno que los revise y ejercite usando `Codespaces`. Se sugieren públicos-plantilla/no plantilla.
